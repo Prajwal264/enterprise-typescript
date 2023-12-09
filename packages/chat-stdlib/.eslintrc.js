@@ -11,6 +11,13 @@ module.exports = {
     ],
     "overrides": [
         {
+            "files": ["tests/**/*.ts"],
+            "env": { node: true, jest: true }
+        },
+        {
+
+            extends: ["plugin:@typescript-eslint/disable-type-checked"],   
+            rules: {     "@typescript-eslint/no-unsafe-assignment": "off",   },
             "env": {
                 "node": true
             },
@@ -25,11 +32,14 @@ module.exports = {
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
+        "project": true,
+        "tsConfigRootDir": __dirname,
         "sourceType": "module"
     },
     "plugins": [
         "@typescript-eslint"
     ],
+  
     "rules": {
     }
 }
