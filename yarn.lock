@@ -11912,15 +11912,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-react-helmet@npm:^4.15.0":
-  version: 4.15.0
-  resolution: "gatsby-plugin-react-helmet@npm:4.15.0"
+"gatsby-plugin-react-helmet@npm:^6.13.0":
+  version: 6.13.0
+  resolution: "gatsby-plugin-react-helmet@npm:6.13.0"
   dependencies:
-    "@babel/runtime": "npm:^7.15.4"
+    "@babel/runtime": "npm:^7.20.13"
   peerDependencies:
-    gatsby: ^3.0.0-next.0
+    gatsby: ^5.0.0-next
     react-helmet: ^5.1.3 || ^6.0.0
-  checksum: be488462ef674ffe298f94837184ca67d4b3d4fc37cf1b3920d9225ba88d9dc9d31a541255e237dac2607e880b9cee41774d5870180e622def501b6645f05085
+  checksum: 9f870ba3a8a5591202c37c96f504e5f4c392a73a6d55d6b2589e552a01aa5fedfbee55a43da2d27509278ec3d1168997315a75e7c81266ad9f440df33f123743
   languageName: node
   linkType: hard
 
@@ -25013,7 +25013,7 @@ __metadata:
     gatsby-plugin-google-gtag: "npm:^3.15.0"
     gatsby-plugin-google-tagmanager: "npm:^3.15.0"
     gatsby-plugin-manifest: "npm:^3.15.0"
-    gatsby-plugin-react-helmet: "npm:^4.15.0"
+    gatsby-plugin-react-helmet: "npm:^6.13.0"
     gatsby-plugin-sass: "npm:^4.15.0"
     gatsby-plugin-sharp: "npm:^3.15.0"
     gatsby-plugin-typography: "npm:^3.15.0"
